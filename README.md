@@ -4,7 +4,7 @@
 provide 1 liner solution
 
 ## Exercise 2
-suppose 0:0 is not valid, and 24:00 is valid
+suppose 0:0 is valid, and 24:00 not valid 
 
 ## Exercise 3
 provide 2 solutions, 
