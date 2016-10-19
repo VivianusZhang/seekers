@@ -47,8 +47,8 @@ public class ExerciseTwo {
 	 * @return valid max time or "no solution" if no valid time
 	 */
 	private String checkMaxValid(List<int[]> a) {
-		int hour = 0;
-		int minute = 0;
+		int hour = -1;
+		int minute = -1;
 		int tempHour = 0;
 		int tempMinute = 0;
 		
@@ -64,15 +64,14 @@ public class ExerciseTwo {
 					hour = tempHour;
 					minute = tempMinute;					
 				}
-			}
+			} 
 
-			
 		}
 		
-		if (hour == 0 && minute == 0) {
+		if (hour == -1 && minute == -1) {
 			return "no solution";
-		} else {
-			return String.valueOf(hour) + "." + String.valueOf(minute);
+		} else {			
+			return String.format("%02d.%02d", hour, minute);
 		}
 	}
 	
