@@ -5,6 +5,7 @@ import java.util.Random;
 public class TestResult {
 
 	public static void main(String[] args) {
+		// not usful
 		//ExerciseOne test case
 		ExerciseOne e1 = new ExerciseOne();
 		int[] ae11 = new int[100];
